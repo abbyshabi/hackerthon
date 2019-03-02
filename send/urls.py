@@ -7,6 +7,8 @@ from . import views
 
 urlpatterns=[
     url('^$',views.index,name = 'index'),
+    url('r^',views.index,name = 'welcome'),
+
 ]
 
 if settings.DEBUG:
